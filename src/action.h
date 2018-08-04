@@ -1,6 +1,6 @@
 #include "effect.h"
 
-#define ACTIONS_COUNT 1
+#define ACTIONS_COUNT 4
 
 #define ACTION_PASS 0
 
@@ -30,7 +30,7 @@ typedef struct Action {
 const Action ACTIONS[ ACTIONS_COUNT ] = {
 //	 id  name				dmg_type	dmg 	e_cost 	e_gain 	c_cost 	c_gain 	range	cast 	cd 		gdd 	gcdcat 		effects
 	{ 0, "Pass", 			NODMG, 		0,		0,		0,		0, 		0,  	0, 		0, 		0, 		1, 		NONE,   	EFFECT_NONE },
-	//{ 1, "Fan of Knives", 	PHYSICAL, 	1,		2,		0,		0, 		1,		10,  	0, 		0, 		1, 		NORMAL, 	EFFECT_NONE },
-	//{ 2, "Mutilate", 		PHYSICAL, 	2,		4,		0,		0,		2,		10,		0,  	0, 		1, 		NORMAL, 	EFFECT_NONE },
-	//{ 3, "Envenom", 		NATURE, 	7,		3,		0,		5,		0,		10,		0,  	0, 		1, 		NORMAL, 	EFFECT_NONE },
+	{ 1, "Fan of Knives", 	PHYSICAL, 	1,		2,		0,		0, 		1,		10,  	0, 		0, 		1, 		NORMAL, 	EFFECT_NONE },
+	{ 2, "Mutilate", 		PHYSICAL, 	2,		4,		0,		0,		2,		10,		0,  	0, 		1, 		NORMAL, 	EFFECT_NONE },
+	{ 3, "Envenom", 		NATURE, 	7,		3,		0,		5,		0,		10,		0,  	0, 		1, 		NORMAL, 	EFFECT_NONE },
 };

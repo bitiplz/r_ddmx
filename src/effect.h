@@ -1,4 +1,4 @@
-#define EFFECTS_COUNT 1
+#define EFFECTS_COUNT 3
 
 #define EFFECT_NONE 0
 
@@ -14,6 +14,6 @@ typedef struct Effect {
 
 const Effect EFFECTS[ EFFECTS_COUNT ] = {
 	{ 0, "NONE",		 		0.0,  0 },
-	//{ 1, "Energy Boost", 		2.0, 10 },
-	//{ 2, "Damage Boost", 		2.0,  5 },
+	{ 1, "Energy Boost", 		2.0, 10 },
+	{ 2, "Damage Boost", 		2.0,  5 },
 };
