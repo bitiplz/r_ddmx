@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "..\\build"
+		},
+		{
+			"path": "..\\proj"
+		},
+		{
+			"path": "..\\src"
+		}
+	]
+}

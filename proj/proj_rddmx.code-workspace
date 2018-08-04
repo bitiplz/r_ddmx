@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            // Source code
+            "name": "src r_ddmx",
+            "path": "../src/"
+        },
+        {
+            // Project files
+            "name": "proj r_ddmx",
+            "path": "vscode"
+        }
+    ]
+}
